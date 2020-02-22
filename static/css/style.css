@@ -1,0 +1,144 @@
+body {
+  background-color: #FF5864;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+header, .full-width {
+  width: 100%;
+  background: #FD297B;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bolder;
+  background-image: url("../images/jda.png");
+  background-repeat: no-repeat;
+  background-size: 90px 80px;
+  background-position: right;
+  text-align: center;
+}
+.wrap {
+  width: 80%;
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0.25em 0.625em;
+}
+
+/*
+.navbar {
+  overflow: hidden;
+  background-color: #FD297B;
+}
+
+.navbar.right {
+  float: right;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #4D5454;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #565656;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #00C2F2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Change color of dropdown links on hover 
+.dropdown-content a:hover {background-color: #00C2F2;}
+
+/* Show the dropdown menu on hover 
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown 
+.dropdown:hover .dropbtn {background-color: #00C2F2;}
+
+*/
+
+.container {
+  background-color: #FF5864;
+  font-family: "Montserrat", sans-serif;
+  color: #FF5864;
+  align-content: center;
+  text-align: center;
+}
+
+.logininput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #FF655B;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.loginsubmit {
+  width: 100%;
+  background-color: #FF655B;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginsubmit:hover {
+  background-color: #FD297B;
+}
+
+.login {
+  border-radius: 5px;
+  background-color: #FF5864;
+  padding: 20px;
+  color: white;
+  width: 50%;
+  display: inline-block;
+}
