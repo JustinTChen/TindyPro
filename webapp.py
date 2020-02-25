@@ -33,6 +33,7 @@ def home():
         seesion['pass'] = form.password.data.lower()
         bot = TinderBot(session['user'], session['pass'])
         bot.login()
+        bot.auto_swipe()
         return redirect(url_for('home'))
     return render_template('index.html', form=form)
 

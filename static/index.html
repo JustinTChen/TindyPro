@@ -19,31 +19,13 @@
 
           <label for="user">Facebook Username</label>
           {{ form.user(class="logininput") }}
-          {% if form.user.errors %}
-            <div class="alert error">
-                {% for error in form.user.errors %}
-                  <span class="closebtn">&times;</span>  
-                  {{ error }}
-                {% endfor %}
-            </div>
-          {% endif %}
 
           <label for="pass">Facebook Password</label>
           {{ form.password(class="logininput") }}
+
+          <label for="submit">Login and Swipe</label>
           {{ form.submit(class="loginsubmit")}}
         </form>
-
-        <script>
-          var close = document.getElementsByClassName("closebtn");
-          var i;
-          for (i = 0; i < close.length; i++) {
-            close[i].onclick = function(){
-              var div = this.parentElement;
-              div.style.opacity = "0";
-              setTimeout(function(){ div.style.display = "none"; }, 600);
-            }
-          }
-        </script>
       
   </div>
 
